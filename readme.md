@@ -10,10 +10,12 @@ Current goals:
 - Release a newer set of kernel patches
 - Create an update path from the stock Jessie firmware to Buster
 - Create new SD card images for easy installing
+- Document and archive information about the laptop
 
 Future goals:
 - Support the *BSDs
 - Upstream most Novena patches
+- Document and archive information about peripherals
 
 Please report all issues or ideas in this bug tracker.
 
@@ -71,6 +73,8 @@ Unused repositories
 
 These are not included in the novena-next project for various reasons:
 
+- [xobs/irqbalanced](https://github.com/xobs/irqbalanced)
+  will eventually be ported to a newer irqbalance
 - [xobs/libetnaviv](https://github.com/xobs/libetnaviv)
   is obsoleted by the [novena-next/etna_viv](https://github.com/novena-next/etna_viv)
   repository
@@ -82,6 +86,10 @@ These are not included in the novena-next project for various reasons:
   just turns the fan on and is no longer required with the newer kernel
 - [xobs/novena-image](https://github.com/xobs/novena-image)
   will be replaced by official distribution generation scripts
+- [xobs/novena-test](https://github.com/xobs/novena-test)
+  is not useful to us given all the boards shipped have these tests
+- [xobs/u-boot-novena](https://github.com/xobs/u-boot-novena)
+  will eventually be ported to a newer U-Boot
 
 Code signing
 ------------
