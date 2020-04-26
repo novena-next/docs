@@ -80,6 +80,8 @@ These are not included in the novena-next project for various reasons:
   will be replaced by official distribution install scripts
 - [xobs/novena-heirloom](https://github.com/xobs/novena-heirloom)
   just turns the fan on and is no longer required with the newer kernel
+- [xobs/novena-image](https://github.com/xobs/novena-image)
+  will be replaced by official distribution generation scripts
 
 Code signing
 ------------
