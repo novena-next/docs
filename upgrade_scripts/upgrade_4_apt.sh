@@ -15,4 +15,4 @@ echo 'deb-src https://novena.jookia.org/ buster main' >> /etc/apt/sources.list.d
 apt update
 apt -y upgrade
 rm /etc/X11/xorg.conf
-apt install xorg-novena
+apt install -y xorg-novena
