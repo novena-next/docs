@@ -15,16 +15,6 @@ d9a293d5587712c01c92449307359c7a1d7ffc94b29387dc61cbd6c5b02d7271  kosagi-repo_1.
 END
 dpkg -i debian-archive-keyring_2019.1_all.deb debian-keyring_2019.02.25_all.deb kosagi-repo_1.3-r1_all.deb
 
-apt remove -y xorg-novena xserver-xorg-video-armada-dbg libetnaviv libetnaviv-dbg libetnaviv-dev libdrm-armada-dev libdrm-armada-dev libdrm-armada2 libdrm-armada-dev libdrm-armada2-dbg
-apt install -y xserver-xorg-core xserver-xorg-input-all
-cat >/etc/X11/xorg.conf <<EOF
-Section "Device"
-  Identifier "novena"
-  Driver "modesetting"
-  Option "AccelMethod" "none"
-EndSection
-EOF
-
 if grep -q '/dev/disk/by-path/platform-2198000.usdhc-part3 /' /proc/mounts; then
   cp /uboot/novena.dtb /uboot/novena.recovery.dtb
   cp /uboot/zimage /uboot/zImage.recovery
