@@ -14,7 +14,11 @@ mkdir /uboot
 umount /boot
 sed -i 's/\/boot/\/uboot/g' /etc/fstab
 mount /uboot
-rm /uboot/zimage
+
+if grep -q '/dev/disk/by-path/platform-2198000.usdhc-part3 /' /proc/mounts; then
+  cp /usr/share/linux-novena/vmlinuz-4.4.0-00156-gc9ba6e8.dtb /uboot/novena.recovery.dtb
+  cp /usr/share/linux-novena/vmlinuz-4.4.0-00156-gc9ba6e8 /uboot/zImage.recovery
+fi
 
 rm /etc/kernel/postinst.d/zz-novena-kernel-install
 apt -y install flash-kernel
@@ -32,6 +36,7 @@ Boot-Script-Path:
 Required-Packages: u-boot-tools
 END
 
+rm /uboot/zimage
 apt -y install linux-image-4.19.0-8-novena
 
 # always load these

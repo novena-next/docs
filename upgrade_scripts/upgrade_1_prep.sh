@@ -14,8 +14,3 @@ sha256sum -c <<END
 d9a293d5587712c01c92449307359c7a1d7ffc94b29387dc61cbd6c5b02d7271  kosagi-repo_1.3-r1_all.deb
 END
 dpkg -i debian-archive-keyring_2019.1_all.deb debian-keyring_2019.02.25_all.deb kosagi-repo_1.3-r1_all.deb
-
-if grep -q '/dev/disk/by-path/platform-2198000.usdhc-part3 /' /proc/mounts; then
-  cp /uboot/novena.dtb /uboot/novena.recovery.dtb
-  cp /uboot/zimage /uboot/zImage.recovery
-fi
