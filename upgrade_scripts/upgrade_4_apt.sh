@@ -5,6 +5,8 @@ if [[ "$(id -u)" != "0" ]]; then
    exit 1
 fi
 
+apt install -y i2c-tools u-boot-tools
+
 apt remove -y kosagi-repo
 rm /etc/apt/sources.list.d/kosagi.list || true
 rm /etc/apt/trusted.gpg.d/kosagi.gpg || true
@@ -15,4 +17,4 @@ echo 'deb-src https://novena.jookia.org/ buster main' >> /etc/apt/sources.list.d
 apt update
 apt -y upgrade
 rm /etc/X11/xorg.conf
-apt install -y xorg-novena
+apt install -y xorg-novena i2c-tools
