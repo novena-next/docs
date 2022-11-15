@@ -9,9 +9,10 @@ To upgrade to novena-next:
 4. Run upgrade_1_prep.sh
 5. Run upgrade_2_stretch.sh then reboot. (Skip if you're on Stretch already)
 6. Run upgrade_3_buster.sh then reboot. (Skip if you're on Buster already)
-7. Run upgrade_4_apt.sh then reboot. (Skip reboot if upgrading kernel next)
+7. Run upgrade_4_bullseye.sh then reboot. (Skip if you're on Bullseye already)
+8. Run upgrade_4_apt.sh then reboot. (Skip reboot if upgrading kernel next)
 
-You should now have an up to date Buster system with a newer kernel.
+You should now have an up to date Bullseye system with a newer kernel.
 
 Installing the beta 4.19 kernel
 -------------------------------
