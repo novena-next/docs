@@ -1,0 +1,10 @@
+Comment,Description,Designator,Footprint,LibRef,Quantity
+
+"0.1uF, 25V, X5R","Capacitor (Semiconductor SIM Model)","C1","CAPC1005N","Cap Semi","1"
+"10uF, 10V, X5R, 20%","Capacitor (Semiconductor SIM Model)","C2, C3","CAPC1608N","Cap Semi","2"
+"NAND footprint (DNP)","ONFI compliant NAND symbol for use with flex tap","J1","FLEX_NAND_48TSOP","ONFI_NAND","1"
+"FX10A-80P/8-SV1(**)","80-pin 10Gbps 5mm mated height board-to-board connector","JP1","HRS_FX10A-80P/8-SV1(**)","HEADER_HRS_FX10A_80","1"
+"Flex soldertap (DNP)","Flex PCB footprint","P1","FLEX_SD_SOLDERTAP","Header 9","1"
+"10k, 1%","Resistor","R1","RESC1005N","Res1","1"
+"100, 1%","Resistor","R2","RESC1005N","Res1","1"
+"LM1117MP-3.3","800mA Low-Dropout Linear Regulator","U1","MP04A_N","LM1117MP-3.3","1"

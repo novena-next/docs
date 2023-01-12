@@ -1,0 +1,6 @@
+Comment,Description,Designator,Footprint,LibRef,Quantity
+
+"1.0uF, 25V, 20% X5R","Capacitor (Semiconductor SIM Model)","C1","CAPC1608N","Cap Semi","1"
+"JST B3B-EH-A","Header, 3-Pin","P1","JST_B3B_EH_A","Header 3","1"
+"47k, 1%","Resistor","R1","RESC1608N","Res1","1"
+"TCS20DLR","Hall effect sensor, open collector output","U1","SOT23-3N","TCS20DLR","1"
