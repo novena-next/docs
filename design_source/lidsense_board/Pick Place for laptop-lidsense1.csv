@@ -1,0 +1,7 @@
+"Designator","Footprint","Mid X","Mid Y","Ref X","Ref Y","Pad X","Pad Y","Layer","Rotation","Comment"
+""
+"C1","CAPC1608N","505.906mil","387.795mil","505.906mil","387.795mil","474.409mil","387.795mil","T","0.00","1.0uF, 25V, 20% X5R"
+"P1","JST_B3B_EH_A","442.913mil","76.772mil","344.488mil","76.772mil","344.488mil","76.772mil","B","360.00","JST B3B-EH-A"
+"R1","RESC1608N","375.984mil","273.622mil","375.984mil","273.622mil","375.984mil","307.087mil","T","270.00","47k, 1%"
+"U1","SOT23-3N","509.842mil","271.654mil","509.842mil","271.654mil","472.441mil","309.055mil","T","0.00","TCS20DLR"
+
