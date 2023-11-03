@@ -19,7 +19,7 @@ Future goals:
 
 Please report all issues or ideas in this bug tracker.
 
-Come chat on #kosagi on irc.oftc.net or #novena on irc.freenode.net
+Come chat on #kosagi on irc.oftc.net or #novena on irc.libera.chat
 
 Repositories
 ------------
